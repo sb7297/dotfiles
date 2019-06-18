@@ -27,7 +27,7 @@ export EDITOR=/usr/bin/vim
 
 test -s ~/.alias && . ~/.alias || true
 
-alias v="nvim"
+alias v="vim"
 alias vi3="v ~/.config/i3/config"
 alias zy="sudo zypper"
 alias sob="source ~/.bashrc"
