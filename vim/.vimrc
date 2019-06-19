@@ -8,6 +8,8 @@ set wildmode=list,longest,full
 set number relativenumber
 colo desert
 
+au FileType markdown set linebreak
+
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'
 call plug#end()
