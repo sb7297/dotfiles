@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ~/Dropbox/notes/goals
+name="$(date '+%Y-%m-%d')"
+if [[ -f "$name.md" ]]; then
+	vim "$name.md"
+else
+	cp goals.md "$name.md"
+	vim "$name.md"
+fi
